@@ -3,9 +3,8 @@
     Public Class UserManager
 
         Public Function GetAllUsers() As List(Of User)
-            Dim users As New 
+            Dim users As New
         End Function
-
 
     End Class
 
