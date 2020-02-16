@@ -14,8 +14,6 @@
             <div>
                 @Html.LabelFor(Function(model) model.Name)
             </div>
-
-
         </div>
 
 
