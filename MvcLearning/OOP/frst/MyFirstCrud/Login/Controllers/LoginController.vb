@@ -23,10 +23,14 @@ Namespace Controllers
             Try
 
                 If IsUserLogin Then
-                Return RedirectToAction("Index", "Home")
-            End If
+                    Return RedirectToAction("Index", "Home")
+                End If
 
-            Return View()
+            Catch
+
+                Return View()
+
+            End Try
 
         End Function
 
