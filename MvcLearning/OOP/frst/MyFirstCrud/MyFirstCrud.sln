@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UI", "UI\UI.vbproj", "{03B4B6AF-140D-4F7F-8A72-562B43F4F9F7}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Login", "Login\Login.vbproj", "{9187B45C-D69D-49E1-A530-9302CD119A31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{03B4B6AF-140D-4F7F-8A72-562B43F4F9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B4B6AF-140D-4F7F-8A72-562B43F4F9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B4B6AF-140D-4F7F-8A72-562B43F4F9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9187B45C-D69D-49E1-A530-9302CD119A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9187B45C-D69D-49E1-A530-9302CD119A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9187B45C-D69D-49E1-A530-9302CD119A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9187B45C-D69D-49E1-A530-9302CD119A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

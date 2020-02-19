@@ -9,16 +9,16 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{03B4B6AF-140D-4F7F-8A72-562B43F4F9F7}</ProjectGuid>
+    <ProjectGuid>{9187B45C-D69D-49E1-A530-9302CD119A31}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>UI</RootNamespace>
-    <AssemblyName>UI</AssemblyName>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Login</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44389</IISExpressSSLPort>
+    <IISExpressSSLPort>44375</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -32,7 +32,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>UI.xml</DocumentationFile>
+    <DocumentationFile>Login.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -42,7 +42,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>UI.xml</DocumentationFile>
+    <DocumentationFile>Login.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -132,11 +132,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.vb" />
-    <Compile Include="BL\FreindVM.vb" />
-    <Compile Include="BL\ProductManager.vb" />
-    <Compile Include="Controllers\ProductController.vb" />
-    <Compile Include="DAL\DAL.vb" />
-    <Compile Include="Entities\Product.vb" />
+    <Compile Include="Class2.vb" />
+    <Compile Include="Controllers\Class1.vb" />
+    <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Controllers\LoginController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -159,8 +158,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Entities\Freind.vb" />
-    <Compile Include="Views\Freinds\FreindController.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -192,12 +189,8 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.vbhtml" />
     <Content Include="Views\Shared\_Layout.vbhtml" />
-    <Content Include="Views\Product\Index.vbhtml" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Views\Product\Details.vbhtml" />
-    <Content Include="Views\Product\Edit.vbhtml" />
-    <Content Include="Views\Freinds\Create.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -208,7 +201,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Freind\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -235,9 +229,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50825</DevelopmentServerPort>
+          <DevelopmentServerPort>54853</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44389/</IISUrl>
+          <IISUrl>https://localhost:44375/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

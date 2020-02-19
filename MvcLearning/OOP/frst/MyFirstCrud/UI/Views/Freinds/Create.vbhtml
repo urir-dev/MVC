@@ -1,0 +1,2 @@
+﻿@ModelType UI.Class1
+

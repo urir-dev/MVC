@@ -1,4 +1,4 @@
-﻿@ModelType UI.Product
+﻿@ModelType UI.Freind
 
 @Using (Html.BeginForm())
     @Html.AntiForgeryToken()

@@ -1,4 +1,4 @@
-﻿@ModelType IEnumerable(Of UI.Product)
+﻿@ModelType IEnumerable(Of UI.Freind)
 
 <h2>Index</h2>
 
