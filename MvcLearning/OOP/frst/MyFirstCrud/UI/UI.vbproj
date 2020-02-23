@@ -135,6 +135,7 @@
     <Compile Include="BL\FreindVM.vb" />
     <Compile Include="BL\ProductManager.vb" />
     <Compile Include="Code\SessionManager.vb" />
+    <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\ProductController.vb" />
     <Compile Include="DAL\DAL.vb" />
     <Compile Include="Entities\Product.vb" />
@@ -200,6 +201,7 @@
     <Content Include="Views\Product\Details.vbhtml" />
     <Content Include="Views\Product\Edit.vbhtml" />
     <Content Include="Views\Freinds\Create.vbhtml" />
+    <Content Include="Views\Home\bootstrap.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
