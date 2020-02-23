@@ -132,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.vb" />
-    <Compile Include="Class2.vb" />
+    <Compile Include="UserVM.vb" />
     <Compile Include="Controllers\Class1.vb" />
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\LoginController.vb" />
