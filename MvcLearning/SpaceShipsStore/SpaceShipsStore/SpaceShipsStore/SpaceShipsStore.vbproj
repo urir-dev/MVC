@@ -123,6 +123,7 @@
     <Compile Include="Code\SessionManager.vb" />
     <Compile Include="Controllers\LoginController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Controllers\SpaceShipsListController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -177,6 +178,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\SpaceShipsList\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
