@@ -1,0 +1,3 @@
+@Imports MyFirstApiVB.Areas.HelpPage.ModelDescriptions
+@ModelType SimpleTypeModelDescription
+@Model.Documentation
