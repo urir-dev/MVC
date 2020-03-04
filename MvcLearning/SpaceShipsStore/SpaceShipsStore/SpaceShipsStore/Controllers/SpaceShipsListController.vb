@@ -15,19 +15,20 @@ Namespace Controllers
         <HttpGet>
         Function Edit(id As String) As ActionResult
             Dim manager = New SpaceShipsManager()
-            Dim product = manager.GetProduct(id)
+            Dim product = manager.GetShip(id)
 
             Return View(product)
         End Function
-        <HttpPost>
-        Function Edit(collection As FormCollection) As ActionResult
-            Dim manager = New SpaceShipsManager()
-            Dim id = collection("CatalogID")
-            Dim Ship = manager.GetShip(id)
-            Ship.Name = collection("Name")
-            manager.UpdateProduct(Ship)
-            Return RedirectToAction("Index")
-        End Function
+
+        '<HttpPost>
+        'Function Edit(collection As FormCollection) As ActionResult
+        '    Dim manager = New SpaceShipsManager()
+        '    Dim id = collection("CatalogID")
+        '    Dim Ship = manager.GetShip(id)
+        '    Ship.Name = collection("Name")
+        '    manager.UpdateShip(Ship)
+        '    Return RedirectToAction("Index")
+        'End Function
 
 
         Function List() As ActionResult
