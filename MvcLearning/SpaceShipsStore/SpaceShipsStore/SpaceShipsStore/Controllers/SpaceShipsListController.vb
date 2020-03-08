@@ -1,7 +1,7 @@
 ﻿Imports System.Web.Mvc
 
 Namespace Controllers
-    Public Class ProductController
+    Public Class ShipController
         Inherits Controller
 
         ' GET: Product

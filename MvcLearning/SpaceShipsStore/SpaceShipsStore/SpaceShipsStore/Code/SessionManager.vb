@@ -21,7 +21,7 @@
     End Property
 
 
-    Public Shared ReadOnly Property Products() As List(Of Ship)
+    Public Shared ReadOnly Property Ships() As List(Of Ship)
         Get
 
             If _products Is Nothing Then
